@@ -1,0 +1,15 @@
+Random Forest Regression Out-of-Sample Results: 
+
+RF Regression Out-of-Sample R2 Score: 87.1%
+RF Regression Out-of-Sample Root Mean Squared Error: $125130.65
+RF Regression Out-of-Sample Mean Absolute Error: $67752.31
+RF Regression Out-of-Sample Mean Absolute Percentage Error: 12.82%
+RF Regression Out-of-Sample Accuracy: 87.18% 
+
+Random Forest Regression In-Sample Results: 
+
+RF Regression In-Sample R2 Score: 98.31%
+RF Regression In-Sample Root Mean Squared Error: $48472.69
+RF Regression In-Sample Mean Absolute Error: $25692.84
+RF Regression In-Sample Mean Absolute Percentage Error: 4.89%
+RF Regression In-Sample Accuracy: 95.11%
