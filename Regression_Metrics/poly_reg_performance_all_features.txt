@@ -1,0 +1,15 @@
+Polynomial Regression Out-of-Sample Results, All Features: 
+
+Polynomial Regression Out-of-Sample R2 Score: 31.71%
+Polynomial Regression Out-of-Sample Root Mean Squared Error: $287906.7
+Polynomial Regression Out-of-Sample Mean Absolute Error: $105233.12
+Polynomial Regression Out-of-Sample Mean Absolute Percentage Error: 21.08%
+Polynomial Regression Out-of-Sample Accuracy: 78.92% 
+
+Polynomial Regression In-Sample Results, All Features: 
+
+Polynomial Regression In-Sample R2 Score: 88.04%
+Polynomial Regression In-Sample Root Mean Squared Error: $129059.96
+Polynomial Regression In-Sample Mean Absolute Error: $88075.1
+Polynomial Regression In-Sample Mean Absolute Percentage Error: 18.49%
+Polynomial Regression In-Sample Accuracy: 81.51%

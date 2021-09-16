@@ -1,0 +1,5 @@
+Time on Market LSTM Model Performance: 
+
+Time on Market LSTM Model RMSE: $78726.7265625
+Time on Market LSTM Model Mean Absolute Error: $70213.609375
+Time on Market LSTM Model Mean Absolute Percentage Error: 10.652839660644531%

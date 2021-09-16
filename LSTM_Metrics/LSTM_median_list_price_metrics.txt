@@ -1,0 +1,5 @@
+Median Listing Price LSTM Model Performance: 
+
+Median Listing Price LSTM Model RMSE: $46799.2734375
+Median Listing Price LSTM Model Mean Absolute Error: $41038.9921875
+Median Listing Price LSTM Model Mean Absolute Percentage Error: 6.193641662597656%

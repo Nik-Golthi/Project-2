@@ -1,0 +1,5 @@
+Active Listings Count LSTM Model Performance: 
+
+Active Listings Count LSTM Model RMSE: $110947.78125
+Active Listings Count LSTM Model Mean Absolute Error: $104240.6875
+Active Listings Count LSTM Model Mean Absolute Percentage Error: 15.916642189025879%
