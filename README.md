@@ -196,7 +196,7 @@ The plot of the test actual and predicted median prices further highlights the s
 #### Test Actual vs. Predicted, Median Listing Price LSTM
 ![Test Actual vs. Predicted - Median Listing Price LSTM](https://github.com/Nik-Golthi/Project-2/blob/main/Images/LSTM_med_list_price_hvplot.png)
 
-In comparison to the previous two LSTM models, the median listing price model's predicted prices are much closer to the actual test values. In addition, the model predictions are following the general trend of the actual median prices over time, which was not necessarily true for the previous two models.
+In comparison to the previous two LSTM models, the median listing price model's predicted prices are much closer to the actual test values. In addition, the model predictions are following the general trend of the actual median prices over time, which was not necessarily true for the other two LSTM models.
 
 In short, the median listing price LSTM is a great model for our purposes. As expected, historical monthly median prices are strong predictors of monthly median listing prices.
 
