@@ -34,14 +34,14 @@ The key parameter of sklearn's PolynomialFeatures is degrees. We set degrees equ
 We tested the Polynomial Regression on out-of-sample and in-sample data. In addition, we ran the model twice, once with all available features, and a second time with a more refined set of features. Below are the model's performance metrics from the first run:
 
 ##### Polynomial Regression Performance - All Features:
-![PR Performance - All Features]()
+![PR Performance - All Features](https://github.com/Nik-Golthi/Project-2/blob/main/Images/poly_reg_metrics1.png)
 
 The results of the initial run indicated that the model features were weak predictors on new data; the out-of-sample R-squared score was extremely low (31.71%), especially in comparison to the in-sample R-squared score (88.04%).
 
 In an attempt to address this, we refined the predictive features by removing the 6 features that showed the weakest correlation to price in our original dataset. Our second run produced an improved out-of-sample R-squared score, while posting similar RMSE, MAE, MAPE, and accuracy to the initial run:
 
 ##### Polynomial Regression Performance - Refined Features:
-![PR Performance - Refined  Features]()
+![PR Performance - Refined  Features](https://github.com/Nik-Golthi/Project-2/blob/main/Images/poly_reg_metrics2.png)
 
 ### **5) Random Forest Regression**
 
@@ -59,7 +59,7 @@ The key parameter of sklearn's RandomForestRegressors is n_estimators. The param
 We tested the Random Forest Regressor model on out-of-sample and in-sample data. Below are the model's performance metrics:
 
 ##### RF Regressor Performance:
-![RF Regressor Performance]()
+![RF Regressor Performance](https://github.com/Nik-Golthi/Project-2/blob/main/Images/rf_reg_metrics.png)
 
 Based on the performance metrics, the Random Forest Regressor model appears to be a relatively strong model for predicting the home sales price. The model posts a high R-squared score on the testing data (87.1%), suggesting that the predictive features used are significant. Additionally, the mean absolute error percentage is relatively low at 12.8%. The strength of the model is also apparent when charting the actual test sales prices versus the predicted test sales prices. The predicted sales prices track the actual sales prices pretty well:
 
@@ -100,7 +100,7 @@ Next, we compiled and fit the model with the following parameters:
 The Active Listings Count LSTM model appears to be a moderate predictor for median home listing price. The model produced a mean squared error of 0.22.
 
 ##### Active Listings Count LSTM MSE - Model Output:
-![Active Listings LSTM MSE - Model]()
+![Active Listings LSTM MSE - Model](https://github.com/Nik-Golthi/Project-2/blob/main/Images/lstm_active_loss.png)
 
 The above MSE seems to be low and acceptable at face value. However, as this MSE is based on data that was scaled by the MinMaxScaler, the value is difficult to interpret on its own. To improve interpretability, we re-scaled our testing data after running it through our model with the inverse_transform function. We then produced performance metrics on the re-scaled data. Below are the additional performance metrics:
 
@@ -142,7 +142,7 @@ Compile and Fit Parameters:
 The Time on Market LSTM model performed better than the previous active listings count model. For one, the time on market model produced a significantly lower mean squared error of 0.11.
 
 ##### Time on Market LSTM MSE - Model Output:
-![Time on Market LSTM MSE - Model]()
+![Time on Market LSTM MSE - Model](https://github.com/Nik-Golthi/Project-2/blob/main/Images/lstm_time_mkt_loss.png)
 
 To produce additional performance metrics, we ran our testing data through the model and re-scaled the results with the inverse_transform function. The additional metrics further confirmed that the time on market LSTM model was a better model for predicting median home listing price. The time on market LSTM model posted a lower RMSE (~$79,000), lower mean absolute error (~$70,000), and lower MAPE (10.65%):
 
@@ -184,7 +184,7 @@ Compile and Fit Parameters:
 As expected, the median listings price LSTM model proved to be an excellent predictor of monthly median listing prices. Of the three LSTM models built and tested, the median listings price model produced the lowest mean squared error of 0.05.
 
 ##### Median Listing Price LSTM MSE - Model Output:
-![Median Listing Price LSTM MSE - Model]()
+![Median Listing Price LSTM MSE - Model](https://github.com/Nik-Golthi/Project-2/blob/main/Images/lstm_med_price_loss.png)
 
 Like we did with the previous two models, we ran our testing data through the model and re-scaled the results with the inverse_transform function to better interpret the model's performance. Looking at the additional metrics, we see that the median listing price LSTM model has the lowest RMSE (~$47,000), MAE ($41,000), and MAPE (6.19%) of all three LSTM models we tested:
 
