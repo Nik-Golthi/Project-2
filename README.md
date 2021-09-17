@@ -144,7 +144,7 @@ The Time on Market LSTM model performed better than the previous active listings
 ##### Time on Market LSTM MSE - Model Output:
 ![Time on Market LSTM MSE - Model](https://github.com/Nik-Golthi/Project-2/blob/main/Images/lstm_time_mkt_loss.png)
 
-To produce additional performance metrics, we ran our testing data through the model and re-scaled the results with the inverse_transform function. The additional metrics further confirmed that the time on market LSTM model was a better model for predicting median home listing price. The time on market LSTM model posted a lower RMSE (~$79,000), lower mean absolute error (~$70,000), and lower MAPE (10.65%):
+To produce additional performance metrics, we ran our testing data through the model and re-scaled the results with the inverse_transform function. The additional metrics further confirmed that the time on market LSTM model was a better model for predicting median home listing price. The time on market LSTM model posted a lower RMSE ($79,000), lower mean absolute error ($70,000), and lower MAPE (10.65%):
 
 ##### Time on Market LSTM Performance:
 ![Time on Market LSTM Metrics](https://github.com/Nik-Golthi/Project-2/blob/main/Images/LSTM_time_on_mkt_metrics.png)
