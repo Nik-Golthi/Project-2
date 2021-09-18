@@ -21,9 +21,9 @@ We used the King County home sales and characteristics to build different regres
 ### **1)Linear Regression**
 Before performing the linear regression models, we first produced some graphical representations of the data.  We wanted to see if any of the features in the dataset correlated more closely than the others to the housing price.  The seaborn heatmap shows those correlations.  From that heatmap, we then plotted the following graphs; Square Footage vs. Price and Total Square Footage vs. Price.  This particular dataset separates “living square footage” from “basement square footage.”  In some housing markets, the basement is not considered in the square footage of the home, and in this market, we were unable to find out if that was the case.  However, looking at the plots, we made our “x” variable the living square footage plus the basement square footage.  
 
-![Correlation Plot] (https://github.com/Nik-Golthi/Project-2/blob/main/Images/correlation_plot.png)
-![Square Feet vs. Price] (https://github.com/Nik-Golthi/Project-2/blob/main/Images/Price%20vs%20Square%20Feet.png)
-![Total Square Footage vs. Price] (https://github.com/Nik-Golthi/Project-2/blob/main/Images/total%20square%20footage.png)
+![Correlation Plot](https://github.com/Nik-Golthi/Project-2/blob/main/Images/correlation_plot.png)
+![Square Feet vs. Price](https://github.com/Nik-Golthi/Project-2/blob/main/Images/Price%20vs%20Square%20Feet.png)
+![Total Square Footage vs. Price](https://github.com/Nik-Golthi/Project-2/blob/main/Images/total%20square%20footage.png)
 
 The linear regression model was not very efficient at predicting the housing prices in King County. The R-squared value for the model was 0.45, indicating that approximately 45% of the predicted values were accurate.
 
