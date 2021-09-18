@@ -27,7 +27,7 @@ Before performing the linear regression models, we first produced some graphical
 
 The linear regression model was not very efficient at predicting the housing prices in King County. The R-squared value for the model was 0.45, indicating that approximately 45% of the predicted values were accurate.
 
-![Predicted Values] (https://github.com/Nik-Golthi/Project-2/blob/main/Images/predicted%20values.png)
+![Predicted Values](https://github.com/Nik-Golthi/Project-2/blob/main/Images/predicted%20values.png)
 
 ### **2)Multiple Linear Regression**
 In order to try and improve the R-squared score we thought we could implement Multiple Linear Regression.  Multiple Linear Regression is closely related to linear regression, with the exception that several variables (features) are being looked at to predict the outcome (y).  In this case, rather than just using the square footage, we will use all the available features in the dataset.  In so doing, each feature will have a coefficient, indicating that there are several lines that can be drawn to predict the housing price.  The coefficients that were generated for each of the features used are in the attached csv file “model_coefficients.csv”, and we see that the variance score, which can be looked at as the same as R-squared, has increased to 0.70. Just by changing the model we were able to see a significant increase in accuracy.
