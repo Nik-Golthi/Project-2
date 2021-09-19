@@ -90,7 +90,7 @@ There are some potential concerns with this model however. The model appears to 
 
 ## Conclusions: Regression Analysis
 
-Based on the model results, the Random Forest Regression model appears to be strongest predict of the home sales price. The RF regression produces the highest R-squared score and accuracy, as well as the lowest RMSE and mean absolute percentage error. Aside from the RF regression model, the polynomial regression and multiple linear regression models also proved to be solid methods that produced relatively strong results. 
+Based on the model results, the Random Forest Regression model appears to be strongest predictor of the home sales price. The RF regression produces the highest R-squared score and accuracy, while also posting the lowest RMSE and mean absolute percentage error of all the regression models. Aside from the RF regression model, the polynomial regression and multiple linear regression models also proved to be effective regression methods.
 
 ## **LSTM Analysis**
 
